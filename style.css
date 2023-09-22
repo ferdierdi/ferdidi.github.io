@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Silkscreen", cursive;
+}
+.container {
+  width: 100%;
+  max-height: 100vh;
+  height: auto;
+  margin: auto;
+}
+body {
+  background-color: rgb(46, 81, 194);
+}
+.wrapper {
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+.card {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.wrapper h1 {
+ 
+}
+.tiktok {
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.twitter {
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.facebook {
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+i {
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  color: tomato;
+}
+p {
+  margin-top: 10px;
+}
+h2 {
+  margin-top: 15px;
+}
+.twitter i {
+  line-height: 40px;
+  transition: all;
+  transition-duration: 400ms;
+}
+.facebook i {
+  line-height: 40px;
+  transition: all;
+  transition-duration: 400ms;
+}
+.tiktok i {
+  line-height: 40px;
+}
+.btn {
+  margin-top: 1rem;
+  padding: 8px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  border: none;
+  width: 50%;
+}
+.btn:hover{
+  background-color: rgb(81, 81, 251);
+  color: white;
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+  transition: .3s ease-in-out;
+}
+@media screem and (max-widht: 476px){
+  .card{
+    width: 95%;
+  }
+}
